@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .social-icons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .icon {
+            width: 100px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .icon:hover {
+            transform: scale(1.1);
+        }
+        .icon img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Follow Me</h2>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100009888049088" class="icon" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+            </a>
+            <a href="https://www.youtube.com/@islamicmahfil1971" class="icon" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Youtube_logo.png" alt="YouTube">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
